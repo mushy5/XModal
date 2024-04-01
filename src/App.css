@@ -1,12 +1,125 @@
-.App {
+/* .App {
   text-align: center;
 }
 
-.openButton{
+
+button{
   border: none;
   border-radius: 4px;
   background-color: rgb(58, 135, 243);
   color: white;
   padding: 15px;
   margin-top: 20px;
+}
+
+.makeDim{
+  background-color: #8d8989;
+}
+
+.modal{
+  margin-top: 5%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  
+  border-radius: 8px;
+ 
+   padding: 10px; 
+}
+
+form input{
+  width: 70%;
+  padding: 10px;
+  margin: 5px;
+  border: #968f8f;
+  border-radius: 4px;
+} */
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 60vw;
+  height: 100vh;
+  /* box-sizing: border-box; */
+}
+.modal-content {
+  /* width: 100%;
+  height: 100%; */
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px;
+}
+input {
+  margin: 5px;
+  width: 100%;
+  padding: 8px;
+}
+.header {
+  margin-top: 0;
+}
+.btn {
+  background-color: rgb(21, 51, 221);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+}
+.submit-button {
+  background-color: rgb(21, 51, 221);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  margin: 12px;
+  width: 4rem;
+  align-items: center;
+  font-weight: bold;
+}
+.formDiv {
+  width: 100%;
+  /* height: 100%; */
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userForm {
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
 }
